@@ -19,9 +19,9 @@ import {
   starbucks,
   tesla,
   shopify,
-  carrent,
-  jobit,
-  tripguide,
+  aiimg,
+  contentcondenser,
+  shortpath,
   threejs,
 } from "../assets";
 
@@ -46,15 +46,15 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Cloud Computing",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "MERN Stack",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Open Source Contributor/ HacktoberFest2023",
     icon: creator,
   },
 ];
@@ -116,91 +116,90 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Project Intern",
+    company_name: "JNPA",
+    // icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "December 2023 - January 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Contributed to JNPA's event management system using Laravel for efficient and elegant PHP development.",
+      "Designed and optimized the MySQL database structure with phpMyAdmin, ensuring seamless data management.",
+      "Developed and tested the application locally using XAMPP, which integrates Apache, MySQL, PHP, and phpMyAdmin.",
+      "Implemented robust backend logic in PHP to facilitate smooth communication between the front end and MySQL.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Software Development Intern",
+    company_name: "Prodigy Infotech",
+    // icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "October 2023 - November 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Actively contributed to various software development projects, gaining hands-on experience in diverse domains and technologies.",
+      "Acquired significant coding experience through active participation in the development lifecycle, from project inception to implementation and testing.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Cloud Computing Intern",
+    company_name: "Acmegrade",
+    // icon: shopify,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "June 2023 - August 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Interned on cloud computing, gaining hands-on experience with both AWS (Amazon Web Services) and Azure platforms.",
+      "Contributed to the implementation of Infrastructure as Code (IaC) principles, automating deployment and management tasks on both AWS and Azure.",
+      "Worked on configuring and optimizing cloud services such as virtual machines, storage solutions, and networking components on AWS and Azure.",
+      
     ],
   },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+  // {
+  //   title: "Full stack Developer",
+  //   company_name: "Meta",
+  //   icon: meta,
+  //   iconBg: "#E6DEDD",
+  //   date: "Jan 2023 - Present",
+  //   points: [
+  //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // },
 ];
 
 const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
-];
+  // {
+  //   testimonial:
+  //     "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+  //   name: "Sara Lee",
+  //   designation: "CFO",
+  //   company: "Acme Co",
+  //   image: "https://randomuser.me/api/portraits/women/4.jpg",
+  // },
+  
+  // {
+  //   testimonial:
+  //     "I've never met a web developer who truly cares about their clients' success like Rick does.",
+  //   name: "Chris Brown",
+  //   designation: "COO",
+  //   company: "DEF Corp",
+  //   image: "https://randomuser.me/api/portraits/men/5.jpg",
+  // },
+  // {
+  //   testimonial:
+  //     "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+  //   name: "Lisa Wang",
+  //   designation: "CTO",
+  //   company: "456 Enterprises",
+  //   image: "https://randomuser.me/api/portraits/women/6.jpg",
+  // },
+ ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "AI Image Generation App ",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A powerful MERN stack project that combines the capabilities of Node.js, Express.js, MongoDB, React.js, OpenAI's DALL-E model, and Cloudinary to generate stunning images from textual descriptions.",
     tags: [
       {
         name: "react",
@@ -211,45 +210,45 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Node.js",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: aiimg,
+    source_code_link: "https://github.com/sakshivbp1812/AI-Image-Generation-App",
   },
   {
-    name: "Job IT",
+    name: "Content Condenser",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Content Condenser is a cutting-edge YouTube video summarization application that leverages advanced technologies to provide professionals with quick and informative video summaries.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Django",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "NLP - ML",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: contentcondenser,
+    source_code_link: "https://github.com/sakshivbp1812/Content_Condenser",
   },
   {
-    name: "Trip Guide",
+    name: "Shortest Path",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "This project combines Node.js and React with JSX to create a web app that calculates and displays the shortest path in a graph. Users can input obstacle nodes between source and destination and the application will find shortest path using dijikstras.",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Node.js",
         color: "green-text-gradient",
       },
       {
@@ -257,8 +256,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: shortpath,
+    source_code_link: "https://github.com/sakshivbp1812/Shortest_Path_Finder",
   },
 ];
 
