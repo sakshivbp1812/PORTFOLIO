@@ -10,10 +10,7 @@
 2. ⚙️ [Tech Stack](#tech-stack)
 
 ## <a name="introduction">🤖 Introduction</a>
-
-By developing this project, you will gain hands-on experience in crafting immersive web experiences, mastering 3D libraries, and implementing engaging animations. The combination of creativity and technical skills showcased in this project serves as an excellent learning opportunity for developers seeking to enhance their portfolio and captivate users with cutting-edge web design.
-
-If you're getting started and need assistance or face any bugs, join our active Discord community with over 27k+ members. It's a place where people help each other out.
+Hi there! I'm Sakshi Patil. Dive into my portfolio to discover the magic of 3D development. 
 
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 
