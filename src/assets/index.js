@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+// import logo from "./logo.svg";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -28,10 +28,11 @@ import tesla from "./company/tesla.png";
 
 import aiimg from "./aiimg.jpg";
 import contentcondenser from "./contentcondenser.png";
-import shortpath from "./shortpath.jpg";
+import cng from "./cng.png";
+import photo from "./photo.jpeg";
+
 
 export {
-  logo,
   backend,
   creator,
   mobile,
@@ -58,5 +59,6 @@ export {
   tesla,
   aiimg,
   contentcondenser,
-  shortpath,
+  cng,
+  photo,
 };

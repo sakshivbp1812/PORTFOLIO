@@ -49,6 +49,7 @@
 // export default Hero; 
 import { motion } from "framer-motion";
 import { styles } from "../styles";
+import { photo } from "../assets";
 
 const Hero = () => {
   return (
@@ -82,8 +83,8 @@ const Hero = () => {
         className='absolute top-[25%] right-[15%] w-[350px] h-[350px] bg-cover bg-center rounded-full overflow-hidden'
       >
         <img
-          src='src\components\photo.jpeg' // Replace with the path to your image
-          alt='Profile Image'
+          src={photo}// Replace with the path to your image
+          // alt='Profile Image'
           className='w-full h-full object-cover object-center'
         />
       </div>

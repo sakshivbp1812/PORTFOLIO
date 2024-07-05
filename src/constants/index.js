@@ -21,7 +21,7 @@ import {
   shopify,
   aiimg,
   contentcondenser,
-  shortpath,
+  cng,
   threejs,
 } from "../assets";
 
@@ -116,6 +116,29 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Machine Learning Intern",
+    company_name: "Reliance Jio",
+    // icon: starbucks,
+    iconBg: "#383E56",
+    date: "June 2024 - Present",
+    points: [
+      "Contributing to machine learning initiatives under the IT department in Aadhar Team in TC 23.",
+      "Developing a Personal Identifiable Information NER system using Presidio and spaCy models.",
+      "Lead to Enhance data privacy across 90% of Jio’s 10,000 projects.",
+    ],
+  },
+  {
+    title: "Web Developer Intern",
+    company_name: "TUSK Oralcare",
+    // icon: starbucks,
+    iconBg: "#383E56",
+    date: "March 2024 - June 2024",
+    points: [
+      "Initiated the implementation of new features, contributing to an early 15% increase in user engagement.",
+      "Assisted in optimizing website performance, resulting in a noticeable 10% reduction in page load times and enhanced user satisfaction.",
+    ],
+  },
+  {
     title: "Project Intern",
     company_name: "JNPA",
     // icon: starbucks,
@@ -128,17 +151,17 @@ const experiences = [
       "Implemented robust backend logic in PHP to facilitate smooth communication between the front end and MySQL.",
     ],
   },
-  {
-    title: "Software Development Intern",
-    company_name: "Prodigy Infotech",
-    // icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "October 2023 - November 2023",
-    points: [
-      "Actively contributed to various software development projects, gaining hands-on experience in diverse domains and technologies.",
-      "Acquired significant coding experience through active participation in the development lifecycle, from project inception to implementation and testing.",
-    ],
-  },
+  // {
+  //   title: "Software Development Intern",
+  //   company_name: "Prodigy Infotech",
+  //   // icon: tesla,
+  //   iconBg: "#E6DEDD",
+  //   date: "October 2023 - November 2023",
+  //   points: [
+  //     "Actively contributed to various software development projects, gaining hands-on experience in diverse domains and technologies.",
+  //     "Acquired significant coding experience through active participation in the development lifecycle, from project inception to implementation and testing.",
+  //   ],
+  // },
   {
     title: "Cloud Computing Intern",
     company_name: "Acmegrade",
@@ -239,25 +262,25 @@ const projects = [
     source_code_link: "https://github.com/sakshivbp1812/Content_Condenser",
   },
   {
-    name: "Shortest Path",
+    name: "FIND MY CNG",
     description:
-      "This project combines Node.js and React with JSX to create a web app that calculates and displays the shortest path in a graph. Users can input obstacle nodes between source and destination and the application will find shortest path using dijikstras.",
+      "The project includes an admin panel, a user app, and a gas owner app. Admins can log in via a web interface to add CNG stations and view users. The user app allows registration, viewing CNG stations, navigating with Google Maps, and making CNG payments. The gas owner app lets owners log in to check CNG availability at their stations.",
     tags: [
       {
-        name: "react",
+        name: "Android App",
         color: "blue-text-gradient",
       },
       {
-        name: "Node.js",
+        name: "Java",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Xampp Server",
         color: "pink-text-gradient",
       },
     ],
-    image: shortpath,
-    source_code_link: "https://github.com/sakshivbp1812/Shortest_Path_Finder",
+    image: cng,
+    // source_code_link: "https://github.com/sakshivbp1812/Shortest_Path_Finder",
   },
 ];
 
